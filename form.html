@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTML Form</title>
+    <style type="text/css">
+        html,body {
+            padding: 0;
+            margin: 0;
+        }
+        button {
+            padding: 20px;
+            width: 80%;
+            display: grid;
+            text-align: center;
+            font-family: Courier New;
+            outline: none;
+            font-size: 30px;
+            border-radius: 10px;
+            background: linear-gradient(45deg,#ddd,#fff);
+            border: none;
+            color: #222;
+            box-shadow: 0px 4px 14px #ddd;
+        }
+        body {
+            width: 100%;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            width: 100%;
+            background: linear-gradient(50deg, rgba(25,235,252,.1) 90%,#ffa500 );
+            background-repeat: no-repeat;
+        }
+        section {
+            padding: 17px;
+        }
+        header {
+            text-align: center;
+        }
+        .logo {
+            right: 0px;
+            width: 17vw;
+            margin-top: 12px;
+        }
+@media (min-width: 400px) {
+            .logo {
+                width: 13vw;
+            }
+
+        }
+
+        .header {
+            font-family: Courier New;
+        }
+        button {
+            padding: 20px;
+            width: 80%;
+            display: grid;
+            text-align: center;
+            font-family: Courier New;
+            outline: none;
+            font-size: 30px;
+            border-radius: 10px;
+            background: conic-gradient(from 28deg at 50% 70%,#ddd,#fff);
+            border: none;
+            color: #222;
+            box-shadow: 0px 4px 14px #ddd;
+        }
+        a {
+            text-decoration: none;
+            transition: .4s;
+        }
+        a:hover {
+            text-decoration: underline black;
+        }
+        .bg {
+            background: #88f;
+            margin-top: -10px;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: -9px;
+            padding: 10px 0px;
+            font-size: 15px;
+            text-align: center;
+        }
+        .input {
+            width: 200px;
+            color: #666;
+            caret-color: cyan;
+            padding: 4px;
+            border: none;
+            outline: none;
+            border-radius: 4px;
+            margin: 2px;
+        }
+        .input::placeholder {
+            color: #ccc;
+        }
+        .bg  {
+            border: 1px solid #fff;
+            width: 320px;
+            margin-left: 50%;
+            border-radius: 10px;
+            transform: translate(-50%);
+            
+        }
+        .sub {
+            background: conic-gradient(from 30deg at 50% 80%,#eee,#fff);
+            padding: 10px;
+            font-size: 20px;
+            font-family: Courier New;
+        }
+    </style>
+    </head>
+<body>
+  <header>
+<img style="position:absolute;" class="logo" src="https://edaura.in/public/frontend/college-logo/ab4c67f99ec4eafbedbd3796f419a373.png"/>
+    <h1 class="header" style="padding-top:16px;font-weight:900;font-size:2rem" class="header">Html Projects</h1>
+    </header><section>
+    <h2  style="text-align:center;padding:10px;background:#333;color:#fcfafc;border-radius: 4px;">Html form</h2>
+    <div class="bg">
+        <div>
+        <form method="post" accept-charset="utf-8">
+            <h1>College detabase</h1>
+            <label for="Name"> &nbsp; Name*</label>
+            <input value="Subarna Palai" class="input" type="text" name="Name"  placeholder="Name" required/><br />
+            <label for="Dpt"> &nbsp; &nbsp; Dpt.* &nbsp; </label>
+            <select class="input" name="Dpt">
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="MBA">MBA</option>
+            </select><br>
+            <label for="Dpt">section*</label>
+            <select class="input" name="Dpt">
+                <option value="Riddhi Bca 2">Riddhi Bca 2</option>
+                <option value="Riddhi Bca 1">Riddhi Bca 1</option>
+                <option value="Riddhi Bca 1">Riddhi Bca 1</option>
+            </select><br>
+            <label for="Roll "> &nbsp; &nbsp; &nbsp; Roll* </label>
+            <input class="input" type="number" value="75" name="Roll" placeholder="Roll"  required/><br>
+                        <label for="Mobile">Mobile*</label>
+            <input class="input" type="number" name="Mobile" placeholder="Mobile" required/><br>
+            <label for="Email"> &nbsp;  &nbsp;Email </label>
+            <input class="input" type="email" name="Email" placeholder="Email"/><br><br>
+            <input class="input sub" type="submit" value="Submit" />
+        </form>
+        </div>
+    </div>
+    </section>
+          <center>
+    <a href="./college1.html"><button>Colours</button></a>
+    </center><br>
+</body>
+</head>
