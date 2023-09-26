@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>College Project || color</title>
+    <style type="text/css">
+    html,body {
+        padding: 0;
+        margin: 0;
+    }
+        body {
+            width: 100%;
+            overflow-x: hidden;
+            overflow-y: scroll;
+                        width: 100%;
+       background: linear-gradient(50deg,cyan 1%,rgba(25,235,252,.1) 10% 90%,#ffa500);
+       background-repeat: no-repeat;
+        }
+        header {
+            text-align: center;
+        }
+               .logo {
+        right: 0px;
+        width: 17vw;
+        margin-top: 12px;
+       }
+        @media (min-width: 400px) {
+              .logo {
+              width: 13vw;
+              }
+        
+        }
+
+        .header {
+            font-family: Courier New;
+        }
+        section {
+            padding: 17px;
+        }
+    .colorBox {
+        width: 45%;
+        margin:1.9vw;
+        text-align: center;
+        display: inline-block;
+        background: lime;
+        margin-bottom: 3px;
+        border-radius: 20px;
+        font-family: Consolas;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: .6s;
+    }
+    .colorBox:hover {
+        box-shadow: inset 0px 0px 20px #999;
+        transform: skew(2deg);
+        transform: scale(.9);
+
+        
+    }
+    button {
+        padding: 20px;
+        width: 80%;
+        display: grid;
+        text-align: center;
+        font-family: Courier New;
+        outline: none;
+        font-size: 30px;
+        border: none;
+        border-radius: 10px;
+        background: conic-gradient(from 28deg at 50% 70%,#ddd,#fff);
+        color: #222;
+        box-shadow: 0px 4px 14px #ddd;
+    }
+    a {
+        text-decoration: none;
+        transition: .4s;
+    }
+    a:hover {
+        text-decoration: underline black;
+    }
+  
+    </style>
+</head>
+<body>
+    <header>
+<img style="position:absolute;" class="logo" src="https://edaura.in/public/frontend/college-logo/ab4c67f99ec4eafbedbd3796f419a373.png"/>
+    <h1 class="header" style="padding-top:16px;font-weight:900;font-size:2rem" class="header">Html Projects</h1>
+    </header><section>
+    <h2  style="text-align:center;padding:10px;background:#333;color:#fcfafc;border-radius: 4px;">Html text colours and background colours</h2>
+    <div style="background:green;color:white"class="colorBox">
+        <h3>White color on green background</h3>
+    </div>
+        <div style="background:tomato;color:white"class="colorBox">
+        <h3>White color on Tomato background</h3>
+    </div>
+        <div style="background:cyan;color:blue"class="colorBox">
+        <h3>Blue color on cyan &nbsp; background</h3>
+    </div>
+        <div style="background:blue;color:white"class="colorBox">
+        <h3>White color on blue &nbsp; background</h3>
+    </div>
+        <div style="background:black;color:white"class="colorBox">
+        <h3>White color on black &nbsp; background</h3>
+    </div>
+        </div>
+        <div style="background:red;color:white" class="colorBox">
+        <h3>White color on red &nbsp; &nbsp; background</h3>
+    </div>
+    </section>
+   <center>
+    <a href="./table.html"><button>HTML Table</button></a>
+    </center><br>
+</body>
+</html>
